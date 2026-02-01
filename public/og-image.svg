@@ -1,0 +1,76 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="150" fill="#FFD700" opacity="0.05"/>
+  <circle cx="100" cy="530" r="120" fill="#DC143C" opacity="0.05"/>
+  <rect x="900" y="400" width="300" height="300" fill="#50C878" opacity="0.03" transform="rotate(45 1050 550)"/>
+
+  <!-- Content Container -->
+  <rect x="80" y="80" width="1040" height="470" fill="rgba(255,255,255,0.02)" rx="20"/>
+
+  <!-- Title -->
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#FFD700" text-anchor="middle">
+    UNIVERSAL AFFORDABLE HOUSING
+  </text>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="38" font-weight="600" fill="#f5f5f5" text-anchor="middle">
+    Building Dreams, Defining Futures
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="300" y1="220" x2="900" y2="220" stroke="url(#goldGradient)" stroke-width="3"/>
+
+  <!-- Main Value Proposition -->
+  <text x="600" y="290" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#fff" text-anchor="middle">
+    Homes from as low as
+  </text>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFD700" text-anchor="middle">
+    88M UGX
+  </text>
+
+  <!-- Rent to Own Badge -->
+  <rect x="450" y="380" width="300" height="50" fill="#DC143C" rx="25"/>
+  <text x="600" y="413" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">
+    Rent-to-Own Available
+  </text>
+
+  <!-- Prime Locations -->
+  <text x="600" y="475" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#50C878" text-anchor="middle">
+    Prime Locations in Kampala
+  </text>
+
+  <!-- Location Tags -->
+  <g id="locations">
+    <rect x="200" y="495" width="130" height="35" fill="rgba(255,215,0,0.2)" stroke="#FFD700" stroke-width="2" rx="17.5"/>
+    <text x="265" y="520" font-family="Arial, sans-serif" font-size="18" fill="#FFD700" text-anchor="middle">Mbuya</text>
+
+    <rect x="350" y="495" width="130" height="35" fill="rgba(255,215,0,0.2)" stroke="#FFD700" stroke-width="2" rx="17.5"/>
+    <text x="415" y="520" font-family="Arial, sans-serif" font-size="18" fill="#FFD700" text-anchor="middle">Ntinda</text>
+
+    <rect x="500" y="495" width="140" height="35" fill="rgba(255,215,0,0.2)" stroke="#FFD700" stroke-width="2" rx="17.5"/>
+    <text x="570" y="520" font-family="Arial, sans-serif" font-size="18" fill="#FFD700" text-anchor="middle">Nakasero</text>
+
+    <rect x="660" y="495" width="140" height="35" fill="rgba(255,215,0,0.2)" stroke="#FFD700" stroke-width="2" rx="17.5"/>
+    <text x="730" y="520" font-family="Arial, sans-serif" font-size="18" fill="#FFD700" text-anchor="middle">Kajjansi</text>
+
+    <rect x="820" y="495" width="130" height="35" fill="rgba(255,215,0,0.2)" stroke="#FFD700" stroke-width="2" rx="17.5"/>
+    <text x="885" y="520" font-family="Arial, sans-serif" font-size="18" fill="#FFD700" text-anchor="middle">Naalya</text>
+  </g>
+
+  <!-- Website URL -->
+  <text x="600" y="575" font-family="Arial, sans-serif" font-size="22" fill="#999" text-anchor="middle">
+    universalhousinguganda.com
+  </text>
+</svg>
