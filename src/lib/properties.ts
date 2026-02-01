@@ -97,8 +97,8 @@ export const properties: Property[] = [
     featured: true,
     featured_image: "properties/storkelegance4.jpg",
     images: [
-      "properties/storkelegance1.jpg",
-      "properties/storkelegance3.jpg",
+      "properties/storkelegance5.jpg",
+      "properties/storkelegance8.jpg",
       "properties/storkelegance2.jpg",
     ],
     amenities: [
@@ -149,9 +149,8 @@ export const properties: Property[] = [
     featured: true,
     featured_image: "properties/dwellingdoves1.jpg",
     images: [
-      "",
-      "properties/dwellingdoves3.jpg",
-      "properties/dwellingdoves2.jpg"
+      "properties/dwellingdoves2.jpg",
+      "properties/dwellingdoves3.jpg"
     ],
     amenities: [
       "Infinity Pool",

@@ -2,20 +2,32 @@ import { useEffect, useState } from 'react';
 
 const PreLoader = ({ onComplete }: { onComplete: () => void }) => {
   const [progress, setProgress] = useState(0);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [imageError, setImageError] = useState(false);
 
   useEffect(() => {
+    const maxTimeout = setTimeout(() => {
+      onComplete();
+    }, 5000);
+
     const interval = setInterval(() => {
       setProgress((prev) => {
         if (prev >= 100) {
           clearInterval(interval);
-          setTimeout(onComplete, 500);
+          setTimeout(() => {
+            clearTimeout(maxTimeout);
+            onComplete();
+          }, 500);
           return 100;
         }
         return prev + 2;
       });
     }, 30);
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      clearTimeout(maxTimeout);
+    };
   }, [onComplete]);
 
   return (
@@ -33,8 +45,11 @@ const PreLoader = ({ onComplete }: { onComplete: () => void }) => {
                 src="/Uni-logo2.png"
                 alt="Universal Affordable Housing"
                 className="w-48 h-auto"
+                onLoad={() => setImageLoaded(true)}
+                onError={() => setImageError(true)}
                 style={{
                   filter: 'drop-shadow(0 0 20px rgba(255, 215, 0, 0.4))',
+                  opacity: imageError ? 0.5 : 1,
                 }}
               />
             </div>

@@ -1,12 +1,14 @@
 import { useState } from 'react';
+import { getImagePath } from '../../lib/images';
 
 const ImageGallery = ({ images }: { images: string[] }) => {
+  const validImages = images.filter(img => img && img.trim() !== '');
   const [selectedImage, setSelectedImage] = useState(0);
   const [imgErrors, setImgErrors] = useState<Record<number, boolean>>({});
 
   const fallbackImage = 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg';
 
-  if (images.length === 0) {
+  if (validImages.length === 0) {
     return (
       <div className="w-full h-96 bg-[#1a1a1a] border border-[#FFD700]/20 rounded-2xl flex items-center justify-center">
         <span className="text-gray-400">No images available</span>
@@ -19,7 +21,9 @@ const ImageGallery = ({ images }: { images: string[] }) => {
   };
 
   const getImageSrc = (index: number) => {
-    return imgErrors[index] ? fallbackImage : (images[index] || fallbackImage);
+    if (imgErrors[index]) return fallbackImage;
+    const imagePath = validImages[index];
+    return imagePath ? getImagePath(imagePath) : fallbackImage;
   };
 
   return (
@@ -33,9 +37,9 @@ const ImageGallery = ({ images }: { images: string[] }) => {
         />
       </div>
 
-      {images.length > 1 && (
+      {validImages.length > 1 && (
         <div className="grid grid-cols-4 md:grid-cols-6 gap-4">
-          {images.map((_, index) => (
+          {validImages.map((_, index) => (
             <button
               key={index}
               onClick={() => setSelectedImage(index)}
