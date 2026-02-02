@@ -41,10 +41,10 @@ const FloatingButtons = () => {
 
         <button
           onClick={() => setSupportModalOpen(true)}
-          className="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-br from-[#FFD700] to-[#DC143C] rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110"
+          className="w-12 h-12 md:w-14 md:h-14 bg-[#FFD700] rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110"
           title="Chat Help"
         >
-          <MessageCircle className="w-6 h-6 md:w-7 md:h-7 text-[#0a0a0a]" />
+          <MessageCircle className="w-6 h-6 md:w-7 md:h-7 text-black" />
         </button>
 
         {showBackToTop && (

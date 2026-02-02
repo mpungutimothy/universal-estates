@@ -209,7 +209,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full py-4 bg-gradient-to-r from-[#FFD700] to-[#DC143C] text-[#0a0a0a] font-semibold rounded-lg hover:shadow-lg hover:shadow-[#FFD700]/20 transition-all disabled:opacity-50 flex items-center justify-center space-x-2"
+                  className="w-full py-4 bg-[#FFD700] text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-[#FFD700]/20 transition-all disabled:opacity-50 flex items-center justify-center space-x-2"
                 >
                   <Send className="w-5 h-5" />
                   <span>{loading ? 'Sending...' : 'Send Message'}</span>

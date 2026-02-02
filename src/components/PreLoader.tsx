@@ -31,7 +31,7 @@ const PreLoader = ({ onComplete }: { onComplete: () => void }) => {
   }, [onComplete]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#0a0a0a]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-white">
       <div className="text-center">
         <div className="relative w-64 h-64 mx-auto mb-8">
           <div
@@ -89,20 +89,20 @@ const PreLoader = ({ onComplete }: { onComplete: () => void }) => {
         </div>
 
         <div
-          className="text-2xl font-serif text-[#FFD700] mb-4 transition-opacity duration-500"
+          className="text-2xl font-serif text-[#0a0a0a] mb-4 transition-opacity duration-500"
           style={{ opacity: progress > 50 ? 1 : 0 }}
         >
           Universal Affordable Housing
         </div>
 
         <div
-          className="text-sm text-gray-400 transition-opacity duration-500"
+          className="text-sm text-gray-600 transition-opacity duration-500"
           style={{ opacity: progress > 70 ? 1 : 0 }}
         >
           Building Dreams, Defining Futures
         </div>
 
-        <div className="w-64 h-1 mx-auto mt-8 bg-gray-800 rounded-full overflow-hidden">
+        <div className="w-64 h-1 mx-auto mt-8 bg-gray-200 rounded-full overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-[#FFD700] via-[#50C878] to-[#0F52BA] transition-all duration-300"
             style={{ width: `${progress}%` }}

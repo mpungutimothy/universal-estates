@@ -51,8 +51,8 @@ const WhyAffordable = () => {
                 </div>
 
                 <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#FFD700] to-[#DC143C] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                    <Icon className="w-8 h-8 text-[#0a0a0a]" />
+                  <div className="w-16 h-16 bg-[#FFD700] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                    <Icon className="w-8 h-8 text-black" />
                   </div>
 
                   <h3 className="text-2xl font-semibold text-white mb-4">

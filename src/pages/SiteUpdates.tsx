@@ -122,7 +122,7 @@ const SiteUpdates = () => {
               href="https://wa.me/256783277052"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-4 bg-gradient-to-r from-[#FFD700] to-[#DC143C] text-[#0a0a0a] font-semibold rounded-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all hover:scale-105"
+              className="inline-block px-8 py-4 bg-[#FFD700] text-black font-semibold rounded-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all hover:scale-105"
             >
               Contact Us on WhatsApp
             </a>

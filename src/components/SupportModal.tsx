@@ -231,7 +231,7 @@ const SupportModal = ({
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 bg-gradient-to-r from-[#FFD700] to-[#DC143C] text-[#0a0a0a] font-semibold rounded-lg hover:shadow-lg hover:shadow-[#FFD700]/20 transition-all disabled:opacity-50"
+              className="w-full py-3 bg-[#FFD700] text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-[#FFD700]/20 transition-all disabled:opacity-50"
             >
               {loading ? 'Sending...' : 'Send Message'}
             </button>

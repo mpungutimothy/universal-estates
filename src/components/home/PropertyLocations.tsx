@@ -85,7 +85,7 @@ const PropertyLocations = ({ properties }: { properties: Property[] }) => {
         <div className="text-center mt-12">
           <Link
             to="/properties"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-[#FFD700] to-[#DC143C] text-[#0a0a0a] font-semibold rounded-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all hover:scale-105"
+            className="inline-block px-8 py-4 bg-[#FFD700] text-black font-semibold rounded-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all hover:scale-105"
           >
             View All Properties
           </Link>

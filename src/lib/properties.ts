@@ -50,12 +50,12 @@ export const properties: Property[] = [
       "properties/craneheights4.jpg"
     ],
     amenities: [
-      "Swimming Pool",
+      "Swimming pool",
       "Gym",
-      "24/7 Security",
-      "Parking",
-      "Backup Generator",
-      "Water Supply"
+      "Rooftop terrace",
+      "Parking space",
+      "Lifts",
+      "Balconies"
     ],
     floor_plans: {},
     mortgage_eligible: true,
@@ -102,12 +102,12 @@ export const properties: Property[] = [
       "properties/storkelegance2.jpg",
     ],
     amenities: [
-      "Swimming Pool",
+      "Swimming pool",
       "Gym",
-      "24/7 Security",
-      "Parking",
-      "Playground",
-      "CCTV"
+      "Rooftop terrace",
+      "Parking space",
+      "Lifts",
+      "Balconies"
     ],
     floor_plans: {},
     mortgage_eligible: true,
@@ -153,12 +153,12 @@ export const properties: Property[] = [
       "properties/dwellingdoves3.jpg"
     ],
     amenities: [
-      "Infinity Pool",
-      "Spa",
-      "Concierge Service",
-      "24/7 Security",
-      "Underground Parking",
-      "Rooftop Terrace"
+      "Swimming pool",
+      "Gym",
+      "Rooftop terrace",
+      "Parking space",
+      "Lifts",
+      "Balconies"
     ],
     floor_plans: {},
     mortgage_eligible: true,
@@ -200,11 +200,12 @@ export const properties: Property[] = [
       "properties/olive-enclave8.jpg"
     ],
     amenities: [
-      "Security",
-      "Parking",
-      "Water Supply",
-      "Garden",
-      "Children Play Area"
+      "Amphitheatre",
+      "Basketball court",
+      "Soccer pitch",
+      "Ample parking",
+      "Balconies",
+      "Rooftop terrace"
     ],
     floor_plans: {},
     mortgage_eligible: true,
@@ -251,12 +252,12 @@ export const properties: Property[] = [
       "properties/macaw4.jpg"
     ],
     amenities: [
-      "Swimming Pool",
+      "Swimming pool",
       "Gym",
-      "Security",
-      "Parking",
-      "Backup Power",
-      "High-Speed Internet"
+      "Rooftop terrace",
+      "Parking space",
+      "Lifts",
+      "Balconies"
     ],
     floor_plans: {},
     mortgage_eligible: true,
@@ -303,11 +304,12 @@ export const properties: Property[] = [
       "properties/rubycourts6.jpg"
     ],
     amenities: [
-      "Security",
-      "Parking",
-      "Water Supply",
-      "Garden",
-      "Perimeter Wall"
+      "Amphitheatre",
+      "Basketball court",
+      "Soccer pitch",
+      "Ample parking",
+      "Balconies",
+      "Rooftop terrace"
     ],
     floor_plans: {},
     mortgage_eligible: true,

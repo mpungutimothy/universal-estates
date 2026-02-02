@@ -119,7 +119,7 @@ const PropertyModal = ({
 
           <Link
             to={`/property/${property.slug}`}
-            className="block w-full py-3 bg-gradient-to-r from-[#FFD700] to-[#DC143C] text-[#0a0a0a] font-semibold rounded-lg hover:shadow-lg hover:shadow-[#FFD700]/20 transition-all text-center"
+            className="block w-full py-3 bg-[#FFD700] text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-[#FFD700]/20 transition-all text-center"
           >
             View Full Details
           </Link>

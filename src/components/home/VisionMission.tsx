@@ -74,7 +74,7 @@ const VisionMission = () => {
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex items-center space-x-3 px-6 py-3 rounded-full border transition-all ${
                   activeTab === tab.id
-                    ? 'bg-gradient-to-r from-[#FFD700] to-[#DC143C] text-[#0a0a0a] border-transparent shadow-lg'
+                    ? 'bg-[#FFD700] text-black border-transparent shadow-lg'
                     : 'bg-[#1a1a1a] text-gray-300 border-[#FFD700]/20 hover:border-[#FFD700]/40'
                 }`}
               >

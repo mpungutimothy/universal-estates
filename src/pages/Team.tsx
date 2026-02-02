@@ -59,8 +59,8 @@ const Team = () => {
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#FFD700]/5 rounded-full blur-3xl group-hover:bg-[#FFD700]/10 transition-colors" />
 
               <div className="relative">
-                <div className="w-24 h-24 bg-gradient-to-br from-[#FFD700] to-[#DC143C] rounded-full flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform">
-                  <span className="text-4xl font-bold text-[#0a0a0a]">
+                <div className="w-24 h-24 bg-[#FFD700] rounded-full flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform">
+                  <span className="text-4xl font-bold text-black">
                     {member.name.charAt(0)}
                   </span>
                 </div>
