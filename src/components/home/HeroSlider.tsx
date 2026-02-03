@@ -116,7 +116,7 @@ const HeroSlider = ({ properties }: { properties: Property[] }) => {
 
                 <Link
                   to={`/property/${property.slug}`}
-                  className="inline-block px-8 py-4 bg-[#FFD700] text-[#DC143C] font-semibold rounded-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all hover:scale-105"
+                  className="inline-block px-8 py-4 bg-[#FFD700] text-black font-semibold rounded-lg hover:shadow-2xl hover:shadow-[#FFD700]/30 transition-all hover:scale-105"
                 >
                   View Property Details
                 </Link>
