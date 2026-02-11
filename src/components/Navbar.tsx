@@ -87,7 +87,10 @@ const Navbar = () => {
                             onClick={() => setPropertiesMenuOpen(false)}
                             className="block px-4 py-3 text-sm text-gray-700 hover:bg-[#FFD700]/20 hover:text-gray-900 transition-all border-b border-gray-100 last:border-b-0"
                           >
-                            <div className="font-semibold">{property.location}</div>
+                            <div className="font-semibold">{property.name}</div>
+                            <div className="text-xs text-gray-500 mt-1">
+                              {property.location}
+                            </div>
                           </Link>
                         ))
                       ) : (
@@ -137,7 +140,8 @@ const Navbar = () => {
                                 }}
                                 className="block py-2 text-sm text-gray-700 hover:text-[#FFD700] transition-colors"
                               >
-                                <div className="font-medium">{property.location}</div>
+                                <div className="font-medium">{property.name}</div>
+                                <div className="text-xs text-gray-500">{property.location}</div>
                               </Link>
                             ))
                           ) : (
