@@ -45,7 +45,7 @@ export const localImages = {
       'siteupdates/craneupdates8.jpg',
     ],
     macawTowers: [
-      'siteupdates/macawupdates5.jpeg',
+      'siteupdates/macawupdates1.jpeg',
       'siteupdates/macawupdates2.jpeg',
       'siteupdates/macawupdates3.jpeg',
       'siteupdates/macawupdates4.jpeg',
@@ -73,6 +73,17 @@ export const localImages = {
       'siteupdates/eleganceupdate6.jpeg',
       'siteupdates/eleganceupdate7.jpeg',
       'siteupdates/eleganceupdate8.jpeg',
+    ],
+    oliveEnclave: [
+      'properties/olive-enclave1.jpg',
+      'properties/olive-enclave4.jpg',
+      'properties/olive-enclave6.jpg',
+      'properties/olive-enclave8.jpg',
+    ],
+    dwellingDoves: [
+      'properties/dwellingdoves1.jpg',
+      'properties/dwellingdoves2.jpg',
+      'properties/dwellingdoves3.jpg',
     ],
   },
 

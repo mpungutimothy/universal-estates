@@ -25,9 +25,7 @@ const RentToOwn = () => {
                 Deposit 50% and Move In
               </h3>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Pay only 50% of the property price as a deposit and start living in
-                your dream home immediately. The remaining balance can be spread over
-                an agreed period, making homeownership accessible and stress-free.
+                From as low as 50%, Universal gets for you a tenant to help you pay off the balance. Terms and conditions apply.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start space-x-3">

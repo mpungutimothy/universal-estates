@@ -7,20 +7,20 @@ const SiteUpdates = () => {
 
   const projects = [
     {
-      id: 'crane-heights',
-      name: 'Crane Heights',
-      location: 'Mbuya',
-      status: 'Under Construction',
-      description: 'A premium residential development featuring modern amenities and stunning views. This project represents the future of affordable luxury living in Mbuya.',
-      images: localImages.projects.craneHeights,
-    },
-    {
       id: 'macaw-towers',
       name: 'Macaw Towers',
       location: 'Naalya',
-      status: 'Under Construction',
+      status: 'Possession Soon',
       description: 'An iconic tower development set to redefine urban living in Naalya. Features state-of-the-art facilities and breathtaking architecture.',
       images: localImages.projects.macawTowers,
+    },
+    {
+      id: 'stork-elegance',
+      name: 'Stork Elegance',
+      location: 'Ntinda',
+      status: 'Under Construction',
+      description: 'A sophisticated residential project bringing elegance and comfort to the heart of Ntinda. Features premium finishes and thoughtful design.',
+      images: localImages.projects.storkElegance,
     },
     {
       id: 'ruby-courts',
@@ -31,12 +31,28 @@ const SiteUpdates = () => {
       images: localImages.projects.rubyCourts,
     },
     {
-      id: 'stork-elegance',
-      name: 'Stork Elegance',
-      location: 'Ntinda',
+      id: 'crane-heights',
+      name: 'Crane Heights',
+      location: 'Mbuya',
       status: 'Under Construction',
-      description: 'A sophisticated residential project bringing elegance and comfort to the heart of Ntinda. Features premium finishes and thoughtful design.',
-      images: localImages.projects.storkElegance,
+      description: 'A premium residential development featuring modern amenities and stunning views. This project represents the future of affordable luxury living in Mbuya.',
+      images: localImages.projects.craneHeights,
+    },
+    {
+      id: 'olive-enclave',
+      name: 'Olive Enclave',
+      location: 'Kajjansi',
+      status: 'Newly Launched',
+      description: 'Affordable apartment complex in serene Kajjansi, perfect for first-time homeowners and growing families. Features modern amenities and spacious living areas.',
+      images: localImages.projects.oliveEnclave || [],
+    },
+    {
+      id: 'dwelling-doves',
+      name: 'Dwelling Doves',
+      location: 'Nakasero',
+      status: 'Newly Launched',
+      description: 'Premium apartment complex in upscale Nakasero with breathtaking views and world-class amenities. Luxury living at its finest.',
+      images: localImages.projects.dwellingDoves || [],
     },
   ];
 
