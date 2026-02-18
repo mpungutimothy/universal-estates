@@ -28,6 +28,7 @@ export interface Property {
   base_name: string;
   min_price: number;
   max_price: number;
+  property_status?: string;
 }
 
 export const properties: Property[] = [
@@ -81,7 +82,8 @@ export const properties: Property[] = [
     },
     base_name: "Crane Heights Mbuya",
     min_price: 168000000,
-    max_price: 353000000
+    max_price: 353000000,
+    property_status: "Under Construction"
   },
   {
     id: "7d5025ef-a132-43a4-9929-7c4828718a82",
@@ -133,7 +135,8 @@ export const properties: Property[] = [
     },
     base_name: "Stork Elegance Ntinda",
     min_price: 175000000,
-    max_price: 353000000
+    max_price: 353000000,
+    property_status: "Possession Soon"
   },
   {
     id: "8c4a6afd-f657-46ac-8607-8a5baf876fb1",
@@ -179,7 +182,8 @@ export const properties: Property[] = [
     },
     base_name: "Dwelling Doves Nakasero",
     min_price: 453000000,
-    max_price: 521000000
+    max_price: 521000000,
+    property_status: "Newly Launched"
   },
   {
     id: "a6d9dbbb-8aa8-4f35-96c8-35453279a823",
@@ -231,7 +235,8 @@ export const properties: Property[] = [
     },
     base_name: "Olive Enclave Kajjansi",
     min_price: 107000000,
-    max_price: 221000000
+    max_price: 221000000,
+    property_status: "Possession Soon"
   },
   {
     id: "75b34dbb-8f13-4b3c-a612-be7c7ce08dea",
@@ -283,7 +288,8 @@ export const properties: Property[] = [
     },
     base_name: "Macaw Naalya",
     min_price: 153000000,
-    max_price: 295000000
+    max_price: 295000000,
+    property_status: "Under Construction"
   },
   {
     id: "4fcc1961-a685-4871-83bd-753a39be2eff",
@@ -335,6 +341,7 @@ export const properties: Property[] = [
     },
     base_name: "Ruby Courts Kajjansi",
     min_price: 107000000,
-    max_price: 221000000
+    max_price: 221000000,
+    property_status: "Newly Launched"
   }
 ];

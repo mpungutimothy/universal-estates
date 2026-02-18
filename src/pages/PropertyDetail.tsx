@@ -4,6 +4,7 @@ import { properties as staticProperties, Property } from '../lib/properties';
 import { MapPin, Bed, Bath, Home } from 'lucide-react';
 import ImageGallery from '../components/property/ImageGallery';
 import ScheduleTourForm from '../components/property/ScheduleTourForm';
+import PropertyStatusBadge from '../components/PropertyStatusBadge';
 
 const PropertyDetail = () => {
   const { slug } = useParams();
@@ -59,10 +60,13 @@ const PropertyDetail = () => {
               <h1 className="text-4xl md:text-5xl font-serif text-white mb-2">
                 {property.name}
               </h1>
-              <div className="flex items-center space-x-2 text-gray-400">
+              <div className="flex items-center space-x-2 text-gray-400 mb-3">
                 <MapPin className="w-5 h-5 text-[#50C878]" />
                 <span className="text-lg">{property.location}</span>
               </div>
+              {property.property_status && (
+                <PropertyStatusBadge status={property.property_status} />
+              )}
             </div>
             <div className="px-4 py-2 bg-[#FFD700]/20 border border-[#FFD700]/30 rounded-full">
               <span className="text-[#FFD700] font-semibold">
